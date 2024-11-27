@@ -1,0 +1,61 @@
+.displayContainer {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    padding: 15px;
+    background-color: #585858;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent;
+}
+
+.resultHistory {
+    width: 285px;
+    height: 110px;
+    font-size: 30px;
+    position: absolute;
+    background: transparent;
+    resize: none;
+    border: none;
+    float: left;
+    font-weight: 200;
+    line-height: 1.2;
+}
+
+
+.inputHistory {
+    width: 85px;
+    height: 40px;
+    margin: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    text-align: right;
+    border: none;
+    font-weight: 100;
+    font-size: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+    text-overflow:clip;
+}
+
+.inputDisplay {
+    width: 370px;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    background: transparent;
+    text-align: right;
+    border: none;
+    font-size: 60px;
+    font-weight: 400;
+    overflow-x: auto;
+    white-space: nowrap;
+}

@@ -1,0 +1,107 @@
+button{
+    width: 70px;
+    height: 70px;
+    margin: 5px 0;
+    border-radius: 50px;
+    outline: none;
+    border-style: none;
+    display: block;
+    user-select: none;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.buttonsContainer {
+    width: 400px;
+    margin: auto;
+    padding: 20px 15px 0;
+    background-color: #000000;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}    
+
+.upperArea {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.leftSide {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leftRow {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numberButton, .functionButton{
+    background-color: #A5A5A5;
+}
+
+.numberButton:hover, .functionButton:hover {
+    background-color: #ADADAD;
+}
+
+.numberButton:active, .functionButton:active {
+    background-color: #FFEAEA;
+}
+
+.supportButton {
+    cursor: pointer;
+    background-color: #816346;
+}
+
+.supportButton:hover{
+    background-color: #967251;
+}
+
+.supportButton:active{
+    background-color: #b38961;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    width: 100px;
+}
+
+.operatorButton {
+    text-align: center;
+    background-color: #F2A33C;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.operatorButton:hover {
+    background-color: #F6AE50;
+}
+
+.operatorButton:active {
+    background-color: #EFBD7A;
+}
+
+.lastRow {
+    height: 80px;
+    padding: 5 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lastRow button {
+    display: block;
+    width: 175px;
+    height: 70px;
+    border-radius: 100px;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    user-select: none;
+    transition: 0.3s;
+}

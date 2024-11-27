@@ -1,0 +1,27 @@
+.container {
+    margin: auto;
+    margin-top: 40px;
+    width: 400px;
+    height: 640px;
+    align-items: center;
+}
+
+.errorAlertContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.errorAlert {
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: 16px;
+    border-radius: 4px;
+    position: absolute;
+    text-align: center;
+    text-wrap: auto;
+    background-color: rgb(172, 9, 9);
+}
